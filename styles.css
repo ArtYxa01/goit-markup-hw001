@@ -14,7 +14,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -22,7 +22,7 @@ body {
 .header-title-double {
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -32,20 +32,29 @@ body {
 .header-list2,.header-list3,.header-list1  {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #212121;
 }  
-.header-list-main,.header-list-contacts,.details-list,.photo-list,.team-list,.portfolio-list {
+.header-list-main,.header-list-contacts,.details-list,.photo-list,.team-list,.portfolio-list,.portfolio-buttons-list {
 list-style: none;
 }
 .header-list:hover {
     color: #2196F3;
 }
+.header-list:focus {
+    color: #2196F3;
+}
 .contacts:hover {
     color: #2196F3;
 }
+.contacts:focus {
+    color: #2196F3;
+}
 .contacts-mail:hover {
+    color: #2196F3;
+}
+.contacts-mail:focus {
     color: #2196F3;
 }
 .contacts-mail {
@@ -74,7 +83,9 @@ list-style: none;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.decision-button-text {
+.decision-button {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -83,13 +94,6 @@ list-style: none;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    cursor: pointer;
-}
-.decision-button {
-    width: 216px;
-    height: 50px;
-    left: 707px;
-    top: 417px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -98,7 +102,10 @@ list-style: none;
 .decision-button:hover {
     background: #188CE8;
 }
-.details-title {
+.decision-button:focus {
+    background: #188CE8;
+}
+.details-title,.portfolio-title-hide {
     visibility: hidden;
 }
 .details-list-head {
@@ -110,16 +117,15 @@ list-style: none;
     color: #212121;
 }
 .details-list-uphead {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .photo-section {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,1666;
+    line-height: 1.1666;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -127,15 +133,14 @@ list-style: none;
 .team-user1, .team-user2, .team-user3, .team-user4 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .team-user-info1, .team-user-info2, .team-user-info3, .team-user-info4 {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -152,9 +157,8 @@ list-style: none;
     background: #2F303A;
 }
 .adress {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -162,18 +166,23 @@ list-style: none;
     color: #FFFFFF;
 }
 .portfolio-buttons {
-    width: 103px;
-    height: 38px;
-    left: 846px;
-    top: 174px;
-    background: #F5F4FA;
-    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     cursor: pointer;
-}
+    }
 .portfolio-buttons:hover {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+.portfolio-buttons:focus {
+    color: #FFFFFF;
 }
 .portfolio-title {
     font-weight: 700;
@@ -190,22 +199,15 @@ list-style: none;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-.portfolio-buttons-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,625;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    cursor: pointer;
-}
-.portfolio-buttons-text:hover {
-    color: #FFFFFF;
-}
 .portfolio-downtitle {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+}
+.contacts-mail-footer,.contacts-footer {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
