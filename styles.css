@@ -8,7 +8,11 @@ body {
     font-family: 'Roboto', sans-seerif; 
     font-size: 16px; 
     letter-spacing:0.03em; 
-    color: #757575
+    color: #757575;
+}
+:root {
+    --s-grey: #757575;
+    --s-black: #212121;
 }
 .header-title {
     font-family: 'Raleway', sans-serif;
@@ -26,50 +30,60 @@ body {
     letter-spacing: 0.03em;
     color: #000000;
 }
-.header-list,.contacts-mail,.contacts{
+.header-list,
+.contacts-mail,
+.contacts{
     text-decoration: none;
 }
-.header-list2,.header-list3,.header-list1  {
+.header-list2,
+.header-list3,
+.header-list1  {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--s-black);
 }  
-.header-list-main,.header-list-contacts,.details-list,.photo-list,.team-list,.portfolio-list,.portfolio-buttons-list {
+.header-list-main,
+.header-list-contacts,
+.details-list,
+.photo-list,
+.team-list,
+.portfolio-list,
+.portfolio-buttons-list {
 list-style: none;
 }
 .header-list:hover {
     color: #2196F3;
 }
 .header-list:focus {
-    color: #2196F3;
+    color: #188CE8;
 }
 .contacts:hover {
     color: #2196F3;
 }
 .contacts:focus {
-    color: #2196F3;
+    color: #188CE8;
 }
 .contacts-mail:hover {
     color: #2196F3;
 }
 .contacts-mail:focus {
-    color: #2196F3;
+    color: #188CE8;
 }
 .contacts-mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--s-grey);
 }
 .contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--s-grey);
 }
 .decisions {
     background: #2F303A;
@@ -105,7 +119,8 @@ list-style: none;
 .decision-button:focus {
     background: #188CE8;
 }
-.details-title,.portfolio-title-hide {
+.details-title,
+.portfolio-title-hide {
     visibility: hidden;
 }
 .details-list-head {
@@ -114,13 +129,13 @@ list-style: none;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--s-black);
 }
 .details-list-uphead {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--s-grey);
 }
 .photo-section {
     font-weight: 700;
@@ -130,7 +145,10 @@ list-style: none;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.team-user1, .team-user2, .team-user3, .team-user4 {
+.team-user1,
+.team-user2,
+.team-user3,
+.team-user4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -138,14 +156,20 @@ list-style: none;
     letter-spacing: 0.03em;
     color: #212121;
 }
-.team-user-info1, .team-user-info2, .team-user-info3, .team-user-info4 {
+.team-user-info1,
+.team-user-info2,
+.team-user-info3,
+.team-user-info4 {
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--s-grey);
 }
-.team-list-notgeneral1, .team-list-notgeneral2, .team-list-notgeneral3,  .team-list-notgeneral4 {
+.team-list-notgeneral1,
+.team-list-notgeneral2,
+.team-list-notgeneral3, 
+.team-list-notgeneral4 {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -184,13 +208,14 @@ list-style: none;
 }
 .portfolio-buttons:focus {
     color: #FFFFFF;
+    background-color: #188CE8;
 }
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.25;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--s-black);
 }
 .portfolio-listx {
     width: 370px;
@@ -204,12 +229,26 @@ list-style: none;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--s-grey);
 }
-.contacts-mail-footer,.contacts-footer {
+.contacts-mail-footer,
+.contacts-footer {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
+    text-decoration: none;
+}
+.contacts-mail-footer:hover {
+    color: #2196F3;
+}
+.contacts-footer:hover {
+    color: #2196F3;
+}
+.contacts-mail-footer:focus {
+    color: #188CE8;
+}
+.contacts-footer:focus {
+    color: #188CE8;
 }
