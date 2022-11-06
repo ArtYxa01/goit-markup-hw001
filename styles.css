@@ -252,3 +252,162 @@ list-style: none;
 .contacts-footer:focus {
     color: #188CE8;
 }
+.container {
+width: 1600px;
+margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+  height: 80px;
+}
+.header-list-main {
+    display: flex;
+    gap: 50px;
+    margin-left: 90px;
+}
+.header-title {
+    margin-left: 215px;
+}
+.header-navigation {
+    margin-right: auto;
+    gap: 50px;
+}
+.header-list-contacts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 215px;
+}
+.decisions {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.decision-title {
+    width: 696px;
+    height: 120px;
+    display: flex;
+}
+.decision-button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.details-list {
+    display: flex;
+    gap: 30px;
+    width: 1170px;
+    margin-right: 215px;
+    margin-left: 215px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+.details-list p{
+    width: 270px;
+    height: 100px;
+}
+.photo-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 95px;
+}
+.team-title {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 95px;
+}
+.team-list {
+    width: 270px;
+    height: 370px;
+    display: flex;
+    gap: 30px;
+   margin-top: 94px;
+   margin-bottom: 95px;
+   margin-right: 215px;
+   margin-left: 215px;
+}
+.team {
+    height: 650px;
+}
+.team-list h3{
+    margin-top: 30px;
+}
+.team-list p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.footer-section {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-header-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 215px;
+}
+.adress {
+    margin-left: 190px;
+}
+.footer-header-list-main {
+    list-style: none;
+    margin-bottom: 60px;
+    margin-left: 215px;
+    margin-top: 10px;
+}
+.portfolio-buttons-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+.portfolio-list {
+    display: flex;
+    margin-right: 215px;
+    height: 1360px;
+    margin-bottom: 95px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.portfolio-list h2,p{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.portfolio-list h2{
+    padding-bottom: 5px;
+}
