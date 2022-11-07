@@ -338,8 +338,6 @@ header {
 .team-title {
     display: flex;
     justify-content: center;
-    color: #000000;
-    font-weight: 700;
     padding-top: 95px;
 }
 .team-list {
