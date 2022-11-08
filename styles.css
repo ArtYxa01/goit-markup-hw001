@@ -246,7 +246,7 @@ list-style: none;
     color: #188CE8;
 }
 .container {
-width: 1600px;
+width: 1200px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -364,7 +364,7 @@ header {
     margin-left: 215px;
 }
 .adress {
-    margin-left: 190px;
+    margin-left: 215px;
 }
 .footer-header-list-main {
     list-style: none;
@@ -414,4 +414,9 @@ body img{
 .portfolio-listx {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
 }
