@@ -412,7 +412,7 @@ body img{
 footer li{
     margin-top: 9px;
 }
-.details-list,
+.details-list li,
 .team-list li{
     flex-basis: calc((100% - 90px) / 4);  
 }
