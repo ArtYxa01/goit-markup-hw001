@@ -442,11 +442,11 @@ height: 100%;
 }
 .team-link-icon {
     fill: gray;
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
     margin-top: 16px;
     margin-bottom: 30px;
-    border-radius: 44px;
+    border-radius: 50%;
 }
 .team-list-notgeneral {
     width: 270px;
@@ -454,4 +454,31 @@ height: 100%;
 .team-link-icon:hover {
 background-color: #2196F3;
 fill: #ffffff;
+}
+.clients-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+.clients-link svg{
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    fill: gray;
+}
+.clients-link svg:hover {
+   fill: #2196F3;
+   border-color: #2196F3;
+}
+.clients-title {
+    color: #000000;
+    font-size: 36px;
+    line-height: 1.1666;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
