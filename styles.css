@@ -430,7 +430,6 @@ footer li{
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: 50%;
 gap: 10px;
 }
 .team-links-list {
@@ -441,7 +440,16 @@ gap: 10px;
 }
 .team-link-icon {
     fill: gray;
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    border-radius: 44px;
 }
 .team-list-notgeneral {
     width: 270px;
+}
+.team-link-icon:hover {
+background-color: #2196F3;
+fill: #ffffff;
 }
