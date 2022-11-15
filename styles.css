@@ -380,7 +380,6 @@ padding-bottom: 60px;
 }
 body img{
     display:block;
-    min-width: 100%;
 }
 .portfolio-images-downtitle {
     padding-top: 20px;
@@ -418,7 +417,9 @@ body img{
 footer li{
     margin-top: 9px;
 }
-.details-list li,
+.details-list li{
+    flex-basis: calc((100% - 90px) / 4);  
+}
 .team-list li{
     flex-basis: calc((100% - 90px) / 4);  
 }
@@ -430,14 +431,17 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: 50%;
+gap: 10px;
 }
 .team-links-list {
     list-style: none;
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 30px;
 }
 .team-link-icon {
     fill: gray;
+}
+.team-list-notgeneral {
+    width: 270px;
 }
