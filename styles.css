@@ -457,8 +457,6 @@ color: #FFFFFF;
     gap: 30px;
 }
 .clients-link svg{
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
     width: 170px;
     height: 92px;
     fill: currentColor;
@@ -466,13 +464,16 @@ color: #FFFFFF;
 .clients-link {
     display: flex;
     height: 92px;
+    color: gray;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 .clients-link:hover {
-   fill: #2196F3;
+   color: #2196F3;
    border-color: #2196F3;
 }
 .clients-link:focus {
-    fill: #2196F3;
+    color: #2196F3;
     border-color: #2196F3;
 }
 .team-link-list-second {
@@ -495,15 +496,6 @@ align-items: center;
     display: flex;
     gap: 10px;
     list-style: none;
-}
-.footer-svg {
-    display: flex;
-    align-items: baseline;
-}
-.img-details-list {
-    list-style: none;
-    display: flex;
-    gap: 30px;
 }
 .header-list-contacts a:hover{
     color: #2196F3;
@@ -530,4 +522,14 @@ align-items: center;
 .details-list-img {
     width: 270px;
     height: 120px;
+    background-color: gray;
+}
+.img-details-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+footer .container{
+ display: flex;
+ align-items: baseline;
 }
