@@ -93,10 +93,9 @@ list-style: none;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url(../images/bg.jpg);
     flex-grow: 1;
-    margin-left: 452px;
-    margin-top: 80px;
-    margin-bottom: 94px;
-    margin-right: 452px;
+    max-width: 1600px;
+     height: 600px;
+     margin: 0 auto;
 }
 .decision-title {
     font-weight: 900;
@@ -439,7 +438,7 @@ color: #AFB1B8;
     justify-content: center;
 }
 .team-link-icon {
-    fill: gray;
+    fill: currentColor;
 }
 .team-list-notgeneral {
     width: 270px;
@@ -462,7 +461,7 @@ color: #FFFFFF;
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    fill: gray;
+    fill: currentColor;
 }
 .clients-link {
     display: flex;
@@ -501,4 +500,20 @@ align-items: center;
     list-style: none;
     display: flex;
     gap: 30px;
+}
+.header-list-contacts a:hover{
+    color: #2196F3;
+}
+.header-list-contacts a:focus{
+    color: #2196F3;
+}
+.header-list-contacts svg{
+    fill: currentColor;
+}
+.header-list-contacts{
+display: flex;
+align-items: center;
+}
+.details-svg {
+    fill: currentColor;
 }
