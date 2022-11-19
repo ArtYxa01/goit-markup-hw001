@@ -462,6 +462,8 @@ color: #FFFFFF;
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    justify-content: center;
+     align-items: center; 
 }
 .clients-link:hover {
    color: #2196F3;
@@ -533,7 +535,7 @@ footer .container{
 .clients-list li{
     flex-basis: calc((100% - 150px) / 6); 
 }
-..team-links-list {
+.team-links-list {
     margin-top: 16px;
 }
 footer li{
@@ -544,7 +546,18 @@ footer li{
 }
 .portfolio-shadow {
     display: block;
+    text-decoration: none;
 }
 .portfolio-shadow:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.contacts-mail {
+    display: flex;
+     align-items: center;
+      gap: 10px; 
+}
+.contacts {
+    display: flex;
+     align-items: center;
+      gap: 10px;
 }
