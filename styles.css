@@ -561,13 +561,10 @@ footer li{
      align-items: center;
       gap: 10px;
 }
-.div-adds {
-    position: relative;
-    overflow: hidden;
-     background-color: #fff;
-}
-.div-adds > .p-downtitle {
+
+.p-downtitle {
     font-size: 14px;
+    position: absolute;
 line-height: 1.1428;
 display: flex;
 text-align: center;
@@ -579,4 +576,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
     color: #fff;
     background: rgba(47, 48, 58, 0.8);
+    left: 0;
+     bottom: 0;
+}
+.li-relative {
+    position: relative;
 }
