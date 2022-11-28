@@ -358,6 +358,58 @@
                         </use>
                     </svg>
                 </button>
+                <p class="modal-title">Залиште свої данні,ми вам передзвонимо</p>
+                <form class="modal-form">
+                    <div class="modal-field">
+                    <label for="user-name" class="label">Ім'я</label>
+                        <input 
+                        type="text"
+                        name="user-name"
+                        class="modal-input"
+                        id="user-name"
+                        required>
+                       <svg class="form-svg" width="12" height="12">
+                        <use href="./images/symbol-defs.svg#icon-Vector-1-1">
+                        </use>
+                       </svg>
+                        </div>
+                       <div class="modal-field">
+                       <label for="user-tel" class="label">Телефон</label>
+                        <input
+                     type="tel"
+                     name="user-tel" 
+                     class="modal-input" 
+                     id="user-tel"
+                     required>
+                     <svg class="form-svg" width="13" height="13">
+                        <use href="./images/symbol-defs.svg#icon-Vector-2-1">
+                        </use>
+                       </svg>
+                    </div>
+                       <div class="modal-field">
+                       <label for="user-mail" class="label">Пошта</label>
+                        <input 
+                        type="email"
+                        name="user-mail"
+                        class="modal-input"
+                        id="user-mail"
+                        required>
+                        <svg class="form-svg" width="15" height="12">
+                        <use href="./images/symbol-defs.svg#icon-Vector-3-1">
+                        </use>
+                        </svg>
+                        </div>
+                    <div class="modal-field">
+                    <label for="user-comment" class="label">Коментар</label>
+                        <textarea 
+                        name="user-comment"
+                         id="user-comment" 
+                         class="modal-input2"
+                         placeholder="Введіть текст">
+                        </textarea>
+                    </div>
+                    <button type="submit">Відправити</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
