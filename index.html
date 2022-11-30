@@ -351,7 +351,8 @@
         </div>
         <div class="footer-field">
             <label for="Підпишіться на розсилку" class="label-footer">Підпишіться на розсилку</label>
-              <input type="email"
+            <div class="container div-footer-pos">
+                <input type="email"
                 name="advertising"
                  id="advertising-mail" 
                  class="footer-input"
@@ -363,6 +364,7 @@
                     </svg>
                     </button>
             </div>
+        </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -376,7 +378,8 @@
                 <form class="modal-form">
                     <div class="modal-field">
                     <label for="user-name" class="label">Ім'я</label>
-                        <input 
+                    <div class="relative">
+                    <input 
                         type="text"
                         name="user-name"
                         class="modal-input"
@@ -387,9 +390,11 @@
                         </use>
                        </svg>
                         </div>
+                        </div>
                        <div class="modal-field">
                        <label for="user-tel" class="label">Телефон</label>
-                        <input
+                        <div class="relative">
+                       <input
                      type="tel"
                      name="user-tel" 
                      class="modal-input" 
@@ -400,7 +405,9 @@
                         </use>
                        </svg>
                     </div>
+                    </div>
                        <div class="modal-field">
+                        <div class="container">
                        <label for="user-mail" class="label">Пошта</label>
                         <input 
                         type="email"
@@ -424,6 +431,7 @@
                     </div>
                     <button type="submit" class="button-submit">Відправити</button>
                 </form>
+            </div>
             </div>
         </div>
         <script src="./js/modal.js"></script>
