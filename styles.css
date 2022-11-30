@@ -852,3 +852,30 @@ margin-bottom: 30px;
 .relative {
     position: relative;
 }
+.label-second {
+    color: #2196F3;
+    cursor: pointer;
+}
+.check-text {
+    font-size: 14px;
+    line-height: 1.71428;
+    letter-spacing: 0.03em;
+    color: var(--s-grey);
+    display: flex;
+    align-items: center;
+}
+.input-checkbox:checked +  .policy::before {
+    background-color: #2196F3;
+    border: none;
+    background-image: url(/images/icon\ send\ \(1\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.input-checkbox::before {
+    content: "";
+    width: 16px;
+    height: 15px;
+    background: #212121;
+    border-radius: 2px;
+    margin-right: 7px;
+}
