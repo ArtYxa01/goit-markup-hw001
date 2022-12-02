@@ -864,7 +864,7 @@ margin-bottom: 12px;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .input-checkbox:checked +  .check-text::before {
     background-color: #2196F3;
