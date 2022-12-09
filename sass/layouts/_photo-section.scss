@@ -1,0 +1,24 @@
+.photo-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.p-downtitle {
+    font-size: 14px;
+    position: absolute;
+line-height: 1.1428;
+text-align: center;
+padding-top: 27px;
+padding-bottom: 27px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    color: #fff;
+    background: rgba(47, 48, 58, 0.8);
+    left: 0;
+     bottom: 0;
+     width: 100%;
+     font-weight: 700;
+}
+.li-relative {
+    position: relative;
+}

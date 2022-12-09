@@ -1,0 +1,28 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+    .photo-section {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1666;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin: 0 0 50px;
+    }
+    .section, 
+    .photo {
+    padding-top:0;
+}
+.section {
+    padding-top:94px;
+    padding-bottom:94px;
+}
+.null {
+    padding-top: 0px;
+}
+body img{
+    display:block;
+}
