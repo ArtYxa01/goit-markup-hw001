@@ -1,16 +1,16 @@
-.footer__section {
+.footer-section {
     background: #2F303A;
 }
-.footer__section__adress {
+.adress {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.footer__section__title__double {
+.footer-title-double {
     color: #FFFFFF;
 }
-.footer__section__contacts__mail {
+.contacts-mail-footer {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -25,7 +25,7 @@
         color: #188CE8;
     }
 }
-.footer__section__contacts {
+.contacts-footer {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -40,11 +40,11 @@
         color: #188CE8;
     }
 }
-.footer__section {
+.footer-section {
     display: flex;
     flex-direction: column;
 }
-.footer__section__header__title {
+.footer-header-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -55,14 +55,14 @@
     margin-bottom: 20px;
     display: inline-block;
 }
-.footer__section__header__list__main {
+.footer-header-list-main {
     list-style: none;
 }
-footer {
+.footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
     }
-    .footer__section__links {
+    .footer-links {
         background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     fill: #ffffff;
     display: flex;
@@ -79,15 +79,15 @@ footer {
         background-color: #2196F3;
     }
     }
-    .footer__section__list {
+    .footer-list {
         display: flex;
         gap: 10px;
         list-style: none;
     }
-    .footer__section__title {
+    .title-footer {
         color: #ffffff;
     }
-    .footer__section__svg h3{
+    .footer-svg h3{
         margin-bottom: 20px;
         text-transform: uppercase;
         font-weight: 700;
@@ -97,17 +97,17 @@ footer {
      display: flex;
      align-items: baseline;
     }
-    .footer__section__contact__wrapper {
+    .contact-wrapper {
         margin-right: 70px;
     }
     footer li{
         margin-top: 9px;
     }
-    .footer__section__field {
+    .footer-field {
         position: relative;
         margin-left: auto;
     }
-    .footer__section__button {
+    .footer-button {
         fill: #ffffff;
         background-color: #188CE8;
         color: #ffffff;
@@ -133,7 +133,7 @@ footer {
             background-color: #2196F3;
         }
     }
-    .footer__section__input {
+    .footer-input {
         width: 358px;
         height: 50px;
         padding-top: 15px;
@@ -149,7 +149,7 @@ footer {
             border: transparent;
         }
     }
-    .footer__section__label {
+    .label-footer {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14285;
