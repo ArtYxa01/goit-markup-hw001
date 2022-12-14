@@ -40,7 +40,7 @@ header {
         color: #188CE8;
     }
 }
-.navigation__list__main,
+.navigation__list,
 .header__list__contacts,
 .details-list,
 .photo-list,
@@ -79,7 +79,7 @@ header {
     display: flex;
     align-items: center;
 }
-.navigation__list__main {
+.navigation__list {
     display: flex;
     gap: 50px;
     margin-left: 93px;
@@ -112,6 +112,7 @@ header {
 .header-list-contacts {
 display: flex;
 align-items: center;
+list-style: none;
 }
 .contacts-mail {
     display: flex;
@@ -132,6 +133,7 @@ align-items: center;
     bottom: -1px;
     display: block;
     content: "";
+    color: #2196F3;
 }
 .navigation__link {
     position: relative;
