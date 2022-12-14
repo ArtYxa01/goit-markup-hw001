@@ -160,6 +160,10 @@ header {
   padding-bottom: 32px;
 }
 
+.contacts, .contacts-mail {
+  text-decoration: none;
+}
+
 .decisions {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
   flex-grow: 1;
