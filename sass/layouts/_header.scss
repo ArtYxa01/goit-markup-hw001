@@ -133,6 +133,8 @@ list-style: none;
     bottom: -1px;
     display: block;
     content: "";
+}
+.navigation__link--current {
     color: #2196F3;
 }
 .navigation__link {
