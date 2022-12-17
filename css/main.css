@@ -1019,4 +1019,48 @@ footer .container {
 .label-second {
   color: #2196F3;
   cursor: pointer;
+}/*# sourceMappingURL=main.css.map */ransition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-submit:hover {
+  background-color: #2196F3;
+}
+
+.check-text {
+  font-size: 14px;
+  line-height: 1.71428;
+  letter-spacing: 0.03em;
+  color: var(--s-grey);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.check-text::before {
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+
+.input-checkbox:checked + .check-text::before {
+  background-color: #2196F3;
+  border: none;
+  background-image: url(./images//ok.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.input-checkbox:focus + .check-text::before {
+  border-color: #2196F3;
+}
+
+.relative {
+  position: relative;
+}
+
+.label-second {
+  color: #2196F3;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
