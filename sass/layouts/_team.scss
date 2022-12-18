@@ -44,6 +44,7 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .team-container {
    padding-top: 123px; 
@@ -84,6 +85,7 @@
         fill: currentColor;
     }
     .team-list-notgeneral {
+        width: 100%;
         @media screen and (min-width: 768px) {
             width: calc((100% - 30px) / 2);
         }

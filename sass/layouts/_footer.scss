@@ -97,9 +97,6 @@
      display: flex;
      align-items: baseline;
     }
-    .contact-wrapper {
-        margin-right: 70px;
-    }
     footer li{
         margin-top: 9px;
     }
@@ -129,6 +126,7 @@
         gap: 10px;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+        align-items: center;
         &:hover {
             background-color: #2196F3;
         }
@@ -165,4 +163,9 @@
     }
     footer .container {
         justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 60px;
     }
