@@ -1019,7 +1019,10 @@ footer .container {
 .label-second {
   color: #2196F3;
   cursor: pointer;
-}/*# sourceMappingURL=main.css.map */ 16px;
+}/*# sourceMappingURL=main.css.map */or: #ffffff;
+  background-color: #188CE8;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1.875;
   display: flex;
   text-align: center;
