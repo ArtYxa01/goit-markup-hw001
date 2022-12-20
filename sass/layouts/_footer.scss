@@ -61,6 +61,7 @@
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    width: 100%;
     }
     .footer-links {
         background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
@@ -72,6 +73,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     &:hover {
         background-color: #2196F3;
     }
@@ -96,9 +98,10 @@
     footer .container{
      display: flex;
      align-items: baseline;
-    }
-    .contact-wrapper {
-        margin-right: 70px;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     gap: 60px;
     }
     footer li{
         margin-top: 9px;
@@ -126,9 +129,12 @@
         border-radius: 4px;
         padding-left: 28px;
         padding-right: 28px;
+        margin-left: 140px;
+        margin-right: 140px;
         gap: 10px;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+        margin-top: 20px;
         &:hover {
             background-color: #2196F3;
         }
@@ -165,4 +171,13 @@
     }
     footer .container {
         justify-content: space-between;
+    }
+    .contact-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 124px;
+        margin-right: 124px;
     }

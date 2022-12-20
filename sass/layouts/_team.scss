@@ -30,6 +30,7 @@
 .team-list {
     display: flex;
     gap: 30px;
+    flex-direction: column;
 }
 .team-container {
    padding-top: 30px; 
@@ -70,7 +71,7 @@
         fill: currentColor;
     }
     .team-list-notgeneral {
-        width: 270px;
+        width: 100%;
     }
     .team-links-list {
         margin-top: 16px;

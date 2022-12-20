@@ -1,28 +1,31 @@
 .container {
-    width: 1200px;
+    max-width: 480px;
     margin: 0 auto;
     padding: 0 15px;
     }
     .photo-section {
         font-weight: 700;
-        font-size: 36px;
+        font-size: 28px;
         line-height: 1.1666;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        margin: 0 0 50px;
+        margin: 0 0 30px;
     }
     .section, 
     .photo {
     padding-top:0;
 }
 .section {
-    padding-top:94px;
-    padding-bottom:94px;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 .null {
     padding-top: 0px;
+    display: none;
 }
 body img{
     display:block;
+    width: 100%;
+    height: auto;
 }
